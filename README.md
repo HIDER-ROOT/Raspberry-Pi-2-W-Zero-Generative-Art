@@ -7,3 +7,6 @@
 - OnnxStream is based on the idea of decoupling the inference engine from the component responsible of providing the model weights, which is a class derived from WeightsProvider.
 - For example a custom WeightsProvider can decide to download its data from an HTTP server directly, without loading or writing anything to disk (hence the word "Stream" in "OnnxStream"). Three default WeightsProviders are available: DiskNoCache, DiskPrefetch and Ram.
 - For more information, you can read in this: [OnnxStream](https://github.com/vitoplantamura/OnnxStream.git)
+## Install component
+- `sudo apt install git`
+- `git clone https://github.com/dylski/PaperPiAI.git`
