@@ -9,4 +9,8 @@
 - For more information, you can read in this: [OnnxStream](https://github.com/vitoplantamura/OnnxStream.git)
 ## Install component
 - `sudo apt install git`
-- `git clone https://github.com/dylski/PaperPiAI.git`
+- `git clone https://github.com/HIDER-ROOT/Raspberry-Pi-2-W-Zero-Generative-Art.git`
+- `cd Raspberry-Pi-2-W-Zero-Generative-Art`
+- `scripts/install.sh`
+## Generating
+- `python src/generate_picture.py --width=800 --height=480 output_dir`
